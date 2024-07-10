@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "MyFont"; /* Name you give to the font */
+    src: url("./ExpoArabic-Book.ttf") format('truetype'); /* Path to TTF file */
+    font-weight: normal; /* Optional: Set font weight */
+    font-style: normal;  /* Optional: Set font style */
+  }
+  body{
+    font-family: MyFont;
+    direction: rtl;
+  }
+  .containerlist {
+    padding-right: 35px;
+  }
+  .checkmarklist {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 1000px){
+.carousel-caption-text {
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    right: unset;
+}
+/* .carousel-caption {
+    position: absolute;
+    right: unset;
+    left: unset;
+    bottom: 20px;
+    left: unset;} */
+}
+.plus-btn{
+  background-color: #e88915;
+  border-radius: 5px 0px 0px 5px !important;
+  color: #ffffff;
+}
+.minus-btn{
+  background-color: #d7d7d7;
+  border-radius: 0 5px 5px 0 !important;
+  color: #727070;
+}
